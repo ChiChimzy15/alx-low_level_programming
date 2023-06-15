@@ -4,6 +4,13 @@
  * main - Entry poin
  * Return: always 0 (sucess)
  */
+Int b;
+
+Long int c;
+
+Long long int d;
+
+Float f;
 int main(void)
 {
 	printf("Size of a char: %lu byte(s)\n", sizeof(char));
