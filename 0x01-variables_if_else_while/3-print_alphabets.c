@@ -2,21 +2,24 @@
 /**
  *main - Entry Point
  *lower and uppercase
- *Return: always 0
+ *Return: always 0 (Success)
  */
 int main(void)
 {
-int n = 97;
-n = 65;
+	char lowercase = 'a';
+	char uppercase = 'A';
 
-while (n <= 122)
-{
-putchar(n);
-}
-while (n <= 90)
-{
-putchar(n);
-}
-putchar('\n');
-return (0);
+	while (lowercase <= 'z')
+	{
+		putchar(lowercase);
+		lowercase++;
+	}
+
+	while (uppercase <= 'Z')
+	{
+		putchar(uppercase);
+		uppercase++;
+	}
+	putchar('\n');
+	return (0);
 }
