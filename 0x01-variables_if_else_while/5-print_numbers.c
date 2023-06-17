@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * Main - Entry
- * Print all single number in base 10
+ * main - Entry point
+ * a program that prints all single digit
  * Return: Always 0 (Success)
  */
 int main(void)
