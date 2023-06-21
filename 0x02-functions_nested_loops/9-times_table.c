@@ -7,7 +7,7 @@
  */
 #include <stdio.h>
 
-void times_table(void) 
+void times_table(void)
 {
 	int i, j, result;
 
@@ -15,9 +15,10 @@ void times_table(void)
 	{
 	for (j = 0; j <= 9; j++)
 	{
-            result = i * j;
-            printf("%d x %d = %d\n", i, j, result);
-        }
+
+	result = i * j;
+	printf("%d x %d = %d\n", i, j, result);
+	}
 	printf("\n");
-    }
+	}
 }
