@@ -5,7 +5,7 @@
  * starting with zero
  * Return: empty output
  */
-void pront_time_table(void)
+void print_time_table(void)
 {
 	int x, y, z, u, d;
 
@@ -32,9 +32,9 @@ void pront_time_table(void)
 					_putchar(32);
 					_putchar(32);
 				}
-				putchar(z + '0');
+				_putchar(z + '0');
 			}
 		}
-		print ('\n');
+				_putchar('\n');
 	}
 }
