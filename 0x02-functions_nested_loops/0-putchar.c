@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * main - Entry point
- * Description: 'priny _putchar to stdout'
- * Return: always 0
- */
+ * main - print _putchar
+ * Description: print _putchar to stdout
+ * Return: always 0 (Success)
+*/
+
 int main(void)
 {
 	_putchar('_');
