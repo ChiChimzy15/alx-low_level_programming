@@ -5,36 +5,19 @@
  * starting with zero
  * Return: empty output
  */
-void print_time_table(void)
+#include <stdio.h>
+
+void times_table(void) 
 {
-	int x, y, z, u, d;
+	int i, j, result;
 
-	for (x = 0; x <= 9; x++)
+	for (i = 0; i <= 9; i++)
 	{
-		for (y = 0; y <= 9; y++)
-		{
-			z = x * y;
-
-			if (z > 9)
-			{
-				u = z % 10;
-				d = (z - u) / 10;
-				_putchar(44);
-				_putchar(32);
-				_putchar(d + '0');
-				_putchar(u + '0');
-			}
-			else
-			{
-				if (y != 0)
-				{
-					_putchar(44);
-					_putchar(32);
-					_putchar(32);
-				}
-				_putchar(z + '0');
-			}
-		}
-				_putchar('\n');
-	}
+	for (j = 0; j <= 9; j++)
+	{
+            result = i * j;
+            printf("%d x %d = %d\n", i, j, result);
+        }
+	printf("\n");
+    }
 }
